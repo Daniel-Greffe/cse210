@@ -28,7 +28,7 @@ public class Video
 
     public void ExibirDetalhes()
     {
-        Console.WriteLine("========================================");
+        Console.WriteLine("\n========================================");
         Console.WriteLine($"Título: {_titulo}");
         Console.WriteLine($"Autor: {_autor}");
         Console.WriteLine($"Duração: {_duracao} segundos");
@@ -40,7 +40,5 @@ public class Video
         {
             Console.WriteLine($" - {comentario.ObterTextoFormatado()}");
         }
-
-        Console.WriteLine("========================================\n");
     }
 }
